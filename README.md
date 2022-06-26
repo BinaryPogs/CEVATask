@@ -23,6 +23,8 @@ The service class allows us to handle the client's request, it communicates with
 Below is a ``POST`` request sent to our web API which then creates a ``.json`` file in our filesystem based off this request. Based off the default ``applications.properties``, the file will be stored within our main resources folder.
 
 ![image](https://user-images.githubusercontent.com/51204670/175796154-78ccc7c4-d099-4f31-a0ee-a033a166fe32.png)
+# OUTPUT:
+![image](https://user-images.githubusercontent.com/51204670/175797025-aa103989-3ce4-4b98-aa97-5e03767a0d52.png)
 
 # TODO:
 
