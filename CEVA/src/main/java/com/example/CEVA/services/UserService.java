@@ -31,7 +31,6 @@ public class UserService {
            userList.put(jsonObject);
         }
         userLogic.writeToFile(fw,userList);
-        fw.flush();
         fw.close();
     }
 }
