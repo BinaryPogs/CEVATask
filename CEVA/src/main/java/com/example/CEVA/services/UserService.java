@@ -22,6 +22,7 @@ public class UserService {
         this.userLogic = userLogic;
     }
 
+    // Creates the directory if it does not already exist, writes the file into a specific path, based off the POST request given to us by the controller
     public void uploadJSONObjectToFileSys(ArrayList<User> users) throws IOException, JSONException {
         File file = userLogic.createDirectory();
         FileWriter fw = new FileWriter(file.getAbsoluteFile());

@@ -25,6 +25,7 @@ public class UserLogic {
     }
 
 
+    // Takes in the User as a parameter and populates a JSONObject with the user's data, returns a populated JSONObject
     public JSONObject populateJsonObj(User user) throws JSONException {
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("ID", user.getID());
@@ -42,6 +43,7 @@ public class UserLogic {
         return jsonObject;
     }
 
+    // Creates a directory based off the configProperties file path field
     public File createDirectory() throws IOException {
         String configFilePath = configProperties.getFilePath();
         File directory = new File(configFilePath);
