@@ -20,7 +20,7 @@ This is a model class that we use to map our .json to a POJO
 ``UserService``
 The service class allows us to handle the client's request, it communicates with the logic class to execute the ``.json`` file creation within our file system. 
 
-Below is a ``POST`` request sent to our web API which then creates a ``.json`` file in our filesystem based off this request
+Below is a ``POST`` request sent to our web API which then creates a ``.json`` file in our filesystem based off this request. Based off the default ``applications.properties``, the file will be stored within our main resources folder.
 
 ![image](https://user-images.githubusercontent.com/51204670/175796154-78ccc7c4-d099-4f31-a0ee-a033a166fe32.png)
 
