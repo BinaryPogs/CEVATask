@@ -24,10 +24,10 @@ Below is a ``POST`` request sent to our web API which then creates a ``.json`` f
 
 ![image](https://user-images.githubusercontent.com/51204670/175796154-78ccc7c4-d099-4f31-a0ee-a033a166fe32.png)
 
-#TODO:
+# TODO:
 
 - Write unit tests (did not follow TDD in this assessment, but it would be beneficial to do so in the future
-- Currently, the outputted ``.json`` file is not ordered. This is due to the way that ``.json`` objects in java are handled.
+- Currently, the outputted ``.json`` file is not ordered. This is due to the way that the ``JSONObject`` class in java is written.
 I did some looking around and figured there is a way to preserve the order of the fields using classes such as a ``LinkedHashMap``, 
 although this is not part of the scope of the project.
 If required, I would love to utilise the strategy design pattern to create different formatters for the outputs file (i.e. ordered outputs, unordered, prettified, etc)
